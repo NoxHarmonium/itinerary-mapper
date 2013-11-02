@@ -18,6 +18,24 @@ body, html
     padding-bottom: 0px;
 }
 
+.floating-toolbar
+{
+    width: 300px;
+    height: 200px;
+    background-color: #FDFDFD;
+    border: 1px solid #FEFEFE;
+    position: absolute;
+    right: 50px;
+    top: 100px;
+
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 10px;
+
+    box-shadow: 2px 2px 1px #888888;
+
+}
+
 
 
 
