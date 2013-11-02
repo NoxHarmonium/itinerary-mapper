@@ -17,10 +17,10 @@
     "points" :
     [
         {
-            "title": "Fly from Melbourne to Santiago",
+            "title": "Flying from Melbourne to Santiago",
             "type": "transit",
             "transit_type": "fly",
-            "datetime": "2013-12-2T18:25:43.511Z",
+            "datetime": "12/2/2013",
             "location":
             {
                 "latitude": -37.669714,
@@ -29,9 +29,9 @@
 
         },
         {
-            "title": "Stay in Santiago",
+            "title": "Staying in Santiago",
             "type": "stop",
-            "datetime": "2013-12-3T4:25:43.511Z",
+            "datetime": "12/3/2013",
             "location":
             {
                 "latitude": -33.469120,
@@ -40,10 +40,10 @@
 
         },
         {
-            "title": "Drive from Santiago to Lima",
+            "title": "Driving from Santiago to Lima",
             "type": "transit",
             "transit_type": "drive",
-            "datetime": "2013-12-10T18:25:43.511Z",
+            "datetime": "12/10/2013",
             "location":
             {
                 "latitude": -33.469120,
@@ -52,9 +52,9 @@
         },
 
         {
-            "title": "Stay in Lima",
+            "title": "Staying in Lima",
             "type": "stop",
-            "datetime": "2013-12-14T2:25:43.511Z",
+            "datetime": "12/14/2013",
             "location":
             {
                 "latitude": -12.047816,
@@ -62,10 +62,10 @@
             }
         },
         {
-            "title": "Fly from Lima to Melbourne",
+            "title": "Flying from Lima to Melbourne",
             "type": "transit",
             "transit_type": "fly",
-            "datetime": "2013-12-18T18:25:43.511Z",
+            "datetime": "12/18/2013",
             "location":
             {
                 "latitude": -12.047816,
@@ -74,9 +74,9 @@
 
         },
         {
-            "title": "Arrive back in Melbourne",
+            "title": "Arriving back in Melbourne",
             "type": "stop",
-            "datetime": "2013-12-20T18:25:43.511Z",
+            "datetime": "12/20/2013",
             "location":
             {
                 "latitude": -37.669714,
