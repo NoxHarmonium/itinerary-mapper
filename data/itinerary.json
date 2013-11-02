@@ -1,0 +1,92 @@
+{
+    "transit_types":
+    {
+        "fly" :
+        {
+            "icon": "plane.png"
+
+        },
+         "drive" :
+        {
+            "icon": "car.png"
+
+        },
+
+    },
+
+
+    "points" :
+    [
+        {
+            "title": "Fly from Melbourne to Santiago",
+            "type": "transit",
+            "transit_type": "fly",
+            "datetime": "2013-12-2T18:25:43.511Z",
+            "location":
+            {
+                "latitude": -37.669714,
+                "longitude": 144.848484
+            }
+
+        },
+        {
+            "title": "Stay in Santiago",
+            "type": "stop",
+            "datetime": "2013-12-3T4:25:43.511Z",
+            "location":
+            {
+                "latitude": -33.469120,
+                "longitude": -70.641997
+            }
+
+        },
+        {
+            "title": "Drive from Santiago to Lima",
+            "type": "transit",
+            "transit_type": "drive",
+            "datetime": "2013-12-10T18:25:43.511Z",
+            "location":
+            {
+                "latitude": -33.469120,
+                "longitude": -70.641997
+            }
+        },
+
+        {
+            "title": "Stay in Lima",
+            "type": "stop",
+            "datetime": "2013-12-14T2:25:43.511Z",
+            "location":
+            {
+                "latitude": -37.669714,
+                "longitude": 144.848484
+            }
+        },
+        {
+            "title": "Fly from Lima to Melbourne",
+            "type": "transit",
+            "transit_type": "fly",
+            "datetime": "2013-12-18T18:25:43.511Z",
+            "location":
+            {
+                "latitude": -37.669714,
+                "longitude": 144.848484
+            }
+
+        },
+        {
+            "title": "Arrive back in Melbourne",
+            "type": "stop",
+            "datetime": "2013-12-20T18:25:43.511Z",
+            "location":
+            {
+                "latitude": -37.669714,
+                "longitude": 144.848484
+            }
+
+        },
+
+
+
+    ]
+}
