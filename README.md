@@ -7,8 +7,8 @@ I made it quickly to visualise my upcoming trip for my family so it's probably n
 
 TODO List
 ---------
-Implement the ability to change the current date.
-Add tooltips to each point
+- Implement the ability to change the current date.
+- Add tooltips to each point
 
 Licence
 -------
