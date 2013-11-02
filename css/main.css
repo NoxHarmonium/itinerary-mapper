@@ -25,8 +25,8 @@ body, html
     background-color: #FDFDFD;
     border: 1px solid #FEFEFE;
     position: absolute;
-    right: 50px;
-    top: 100px;
+    left: 50%;
+    top: 50%;
 
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
