@@ -37,21 +37,33 @@ var main = (function ($, google) {
         return;
       }
 
-      var point, loc, loc_, marker, isLastPoint, destPoint, line, loc2;
+      var point, loc, loc_, marker, isLastPoint, destPoint, line, loc2, transitType, icon;
       for(i = 0; i < points.length; i++)
       {
         point = points[i];
         loc = point.location;
         loc_ = new gm.LatLng(loc.latitude, loc.longitude);
-        var marker = new gm.Marker({
-          map: map,
-          position: loc_
-        });
-        markers.push(loc_);
+        icon = null;
+        if (point.type === "transit")
+        {
+          transitType = itineraryData.transit_types[point.transit_type];
+          if (transitType)
+          {
+            icon = transitType.icon;
+          }
+        }
+       
         isLastPoint = (i === points.length - 1);
 
         if (point.type === "transit" && !isLastPoint)
         {
+           marker = new gm.Marker({
+            map: map,
+            position: loc_,
+            icon: icon
+          });
+          markers.push(loc_);
+
           destPoint = points[i+1];
           loc2 = destPoint.location;
 

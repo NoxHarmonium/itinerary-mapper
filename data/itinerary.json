@@ -3,12 +3,12 @@
     {
         "fly" :
         {
-            "icon": "plane.png"
+            "icon": "img/airport.png"
 
         },
          "drive" :
         {
-            "icon": "car.png"
+            "icon": "img/car.png"
         }
 
     },
